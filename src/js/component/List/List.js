@@ -1,9 +1,9 @@
 import React from "react";
-import SectionCharacters from "../component/List/SectionCharacters";
-import SectionPlanets from "../component/List/SectionPlanets"
-import SectionVehicles from "../component/List/SectionVehicles";
+import SectionCharacters from "./SectionCharacters";
+import SectionPlanets from "./SectionPlanets"
+import SectionVehicles from "./SectionVehicles";
 
-export const Home = () => {
+const List = () => {
     return (
         <>
             <SectionCharacters sectionTitle="Characters" />
@@ -12,3 +12,5 @@ export const Home = () => {
         </>
     )
 }
+
+export default List;
